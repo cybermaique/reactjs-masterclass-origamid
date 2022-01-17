@@ -1,3 +1,4 @@
 import {areaQuadrado, perimetroQuadrado} from './quadrado.js';
+import numeroAleatorio from 'numeroAleatorio';
 
-console.log(areaQuadrado(5));
+console.log(perimetroQuadrado(5));
