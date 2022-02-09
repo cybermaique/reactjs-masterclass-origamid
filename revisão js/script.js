@@ -123,3 +123,24 @@ console.log(maior);
 //Imprime 13, 15, Array(3), 25, 30, 5030
 const numeros2 = [13, 15, numeros, 25, 30, 5030];
 console.log(numeros2);
+
+//criando obj > modificando obj
+const carro = {
+    cor: 'Azul',
+    portas: 4
+}
+
+carro.ano = 2020;
+
+console.log(carro);
+
+//criando obj > adiocionado novo atributo no obj (porém sem modificar o obj original)
+const carro = {
+    cor: 'Azul',
+    portas: 4
+};
+
+carroAno = {...carro, ano: 2008};
+
+console.log(carroAno);
+console.log(carro);
